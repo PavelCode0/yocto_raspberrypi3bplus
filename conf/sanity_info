@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /media/mihail/terabyte/yocto/rpi-build/tmp
+SSTATE_DIR /media/mihail/terabyte/yocto/rpi-build/sstate-cache
+NATIVELSBSTRING debian-10
