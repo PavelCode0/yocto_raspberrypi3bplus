@@ -1,4 +1,4 @@
-# yocto_paspberrypi3b-
+# yocto_paspberrypi3bplus
 Settings for creating Linux(Yocto) for Raspberry Pi 3 B+.
 
 Host - Debian GNU/Linux 10 (buster)
@@ -15,7 +15,7 @@ $ git clone git://git.yoctoproject.org/poky
 $ git clone git://git.openembedded.org/meta-openembedded
 $ git clone git://git.yoctoproject.org/meta-raspberrypi
 
-$ source poky/oe-init-build-env yocto_paspberrypi3b+
+$ source poky/oe-init-build-env yocto_paspberrypi3bplus
 
 $ bitbake-layers add-layer ../meta-openembedded/meta-oe
 $ bitbake-layers add-layer ../meta-openembedded/meta-python
@@ -25,7 +25,7 @@ $ bitbake-layers add-layer ../meta-openembedded/meta-gnome
 $ bitbake-layers add-layer ../meta-openembedded/meta-xfce 
 $ bitbake-layers add-layer ../meta-raspberrypi
 
-.../yocto/yocto_paspberrypi3b+/conf/local.conf :
+.../yocto/yocto_paspberrypi3bplus/conf/local.conf :
 
 MACHINE ?= "raspberrypi3-64"
 PACKAGE_CLASSES ?= "package_deb"
